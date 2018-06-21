@@ -26,4 +26,7 @@
 }
 
 
+- (IBAction)buttonPressed:(UIButton *)sender {
+    self.titleLabel.text = @"Changed";
+}
 @end
