@@ -14,5 +14,7 @@
 
 - (IBAction)buttonPressed:(UIButton *)sender;
 
+@property (strong, nonatomic) IBOutlet UITextField *textField;
+
 @end
 

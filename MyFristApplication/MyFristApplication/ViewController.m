@@ -28,5 +28,7 @@
 
 - (IBAction)buttonPressed:(UIButton *)sender {
     self.titleLabel.text = @"Changed";
+    
+    [self.textField resignFirstResponder ];
 }
 @end
