@@ -14,6 +14,7 @@
 		4896F44A20DC268000DF42E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4896F44920DC268000DF42E8 /* Assets.xcassets */; };
 		4896F44D20DC268000DF42E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4896F44B20DC268000DF42E8 /* LaunchScreen.storyboard */; };
 		4896F45020DC268000DF42E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4896F44F20DC268000DF42E8 /* main.m */; };
+		4896F45820DC39AE00DF42E8 /* Instagram-icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4896F45720DC39AE00DF42E8 /* Instagram-icon.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		4896F44C20DC268000DF42E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4896F44E20DC268000DF42E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4896F44F20DC268000DF42E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4896F45720DC39AE00DF42E8 /* Instagram-icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Instagram-icon.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,8 +72,17 @@
 				4896F44E20DC268000DF42E8 /* Info.plist */,
 				4896F44F20DC268000DF42E8 /* main.m */,
 				4896F44620DC268000DF42E8 /* MyFristApplication.xcdatamodeld */,
+				4896F45620DC38DD00DF42E8 /* Supporting Files */,
 			);
 			path = MyFristApplication;
+			sourceTree = "<group>";
+		};
+		4896F45620DC38DD00DF42E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4896F45720DC39AE00DF42E8 /* Instagram-icon.jpg */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4896F44D20DC268000DF42E8 /* LaunchScreen.storyboard in Resources */,
+				4896F45820DC39AE00DF42E8 /* Instagram-icon.jpg in Resources */,
 				4896F44A20DC268000DF42E8 /* Assets.xcassets in Resources */,
 				4896F44520DC268000DF42E8 /* Main.storyboard in Resources */,
 			);
