@@ -1,0 +1,16 @@
+PODS:
+  - libindy-objc (1.4.0)
+
+DEPENDENCIES:
+  - libindy-objc
+
+SPEC REPOS:
+  https://github.com/hyperledger/indy-sdk.git:
+    - libindy-objc
+
+SPEC CHECKSUMS:
+  libindy-objc: 2989afd776aa77ffcf6a7398dc4d2ee20e6386aa
+
+PODFILE CHECKSUM: 56e5157f1fc9bef6abd44d4f9033cb8cdaf7623d
+
+COCOAPODS: 1.5.3

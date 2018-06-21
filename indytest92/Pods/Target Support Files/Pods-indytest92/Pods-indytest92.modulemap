@@ -1,0 +1,6 @@
+framework module Pods_indytest92 {
+  umbrella header "Pods-indytest92-umbrella.h"
+
+  export *
+  module * { export * }
+}
