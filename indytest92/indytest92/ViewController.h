@@ -10,6 +10,9 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)generateDIDButtonPressed:(UIButton *)sender;
+@property (strong, nonatomic) IBOutlet UITextField *DIDTextField;
+@property (strong, nonatomic) IBOutlet UITextView *VerKeyTextView;
 
 @end
 
