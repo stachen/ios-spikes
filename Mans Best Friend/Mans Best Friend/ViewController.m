@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    MBFDog *myDog = [[MBFDog alloc] init]; // method call. MBF alloc first, then init
+    MBFDog *myDog = [[MBFDog alloc] init]; // here is embedded method call. MBF alloc first, then init
     
     myDog.name = @"Nana";
     myDog.breed = @"St. Bernard";
@@ -25,6 +25,8 @@
     
     NSLog(@"My dog is name %@ and its age is %i and the breed is %@", myDog.name, myDog.age, myDog.breed);
     
+    [myDog bark];
+    [myDog barkNumberOfTimes:10];
 }
 
 

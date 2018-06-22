@@ -15,6 +15,7 @@
 		4896F49A20DC423200DF42E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4896F49820DC423200DF42E8 /* LaunchScreen.storyboard */; };
 		4896F49D20DC423200DF42E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4896F49C20DC423200DF42E8 /* main.m */; };
 		4896F4A520DC42C400DF42E8 /* MBFDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 4896F4A420DC42C400DF42E8 /* MBFDog.m */; };
+		4896F4A820DD56AE00DF42E8 /* OWOuterSpaceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4896F4A720DD56AE00DF42E8 /* OWOuterSpaceTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		4896F49C20DC423200DF42E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4896F4A320DC42C400DF42E8 /* MBFDog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBFDog.h; sourceTree = "<group>"; };
 		4896F4A420DC42C400DF42E8 /* MBFDog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBFDog.m; sourceTree = "<group>"; };
+		4896F4A620DD56AE00DF42E8 /* OWOuterSpaceTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OWOuterSpaceTableViewController.h; sourceTree = "<group>"; };
+		4896F4A720DD56AE00DF42E8 /* OWOuterSpaceTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OWOuterSpaceTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +72,8 @@
 				4896F48E20DC423200DF42E8 /* ViewController.m */,
 				4896F4A320DC42C400DF42E8 /* MBFDog.h */,
 				4896F4A420DC42C400DF42E8 /* MBFDog.m */,
+				4896F4A620DD56AE00DF42E8 /* OWOuterSpaceTableViewController.h */,
+				4896F4A720DD56AE00DF42E8 /* OWOuterSpaceTableViewController.m */,
 				4896F49020DC423200DF42E8 /* Main.storyboard */,
 				4896F49620DC423200DF42E8 /* Assets.xcassets */,
 				4896F49820DC423200DF42E8 /* LaunchScreen.storyboard */,
@@ -150,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4896F4A820DD56AE00DF42E8 /* OWOuterSpaceTableViewController.m in Sources */,
 				4896F48F20DC423200DF42E8 /* ViewController.m in Sources */,
 				4896F4A520DC42C400DF42E8 /* MBFDog.m in Sources */,
 				4896F49520DC423200DF42E8 /* Mans_Best_Friend.xcdatamodeld in Sources */,

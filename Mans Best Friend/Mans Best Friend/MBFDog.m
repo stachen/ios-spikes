@@ -10,5 +10,17 @@
 
 @implementation MBFDog
 
+-(void) bark
+{
+    NSLog(@"Woof woof!");
+}
+
+-(void) barkNumberOfTimes:(int)numberOfTimes
+{
+    for(int bark = 1; bark <= numberOfTimes; bark++)
+    {
+        [self bark];
+    }
+}
 
 @end
